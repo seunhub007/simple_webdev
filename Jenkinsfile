@@ -26,7 +26,7 @@ pipeline{
                         sudo rm -rf html
                         sudo mkdir html
 
-                        git clone https://github.com/seunhub007/simple_webdev.git html
+                        sudo git clone https://github.com/seunhub007/simple_webdev.git html
 
                         
 
