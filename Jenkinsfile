@@ -17,7 +17,7 @@ pipeline{
                         echo "welcome to the production. Added Jenkins"
                         
                         sudo apt-get install nginx -y
-                        sudo systemctl start nginx -y
+                        sudo systemctl start nginx 
 
                         sudo apt update -y
 
