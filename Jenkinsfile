@@ -23,7 +23,7 @@ pipeline{
 
                         cd /var/www
 
-                        sudo rm -rf html
+                        rm -rf html
                         sudo mkdir html
 
                         sudo git clone https://github.com/seunhub007/simple_webdev.git html
